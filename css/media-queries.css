@@ -118,6 +118,7 @@ footer {
     }
     h1 {
         flex-grow: 1;
+        font-size: 46px;
     }
     .nav-links li {
         margin: 0;
@@ -127,16 +128,24 @@ footer {
     }
     .header-img {
         margin: 2em 0;
+        content: url("https://via.placeholder.com/900x400");
     }
     .main {
-        flex-basis: 60%;
+        flex-basis: calc(60% - 2em);
+        padding: 1em;
     }
     .sub-section {
-        flex-basis: 40%;
+        flex-basis: calc(40% - 2em);
+        padding: 1em;
+
+    }
+    h2 {
+        margin-bottom: 2em;
     }
 
-
-
+    footer {
+        margin-top: 20em;
+    }
 
 
 
