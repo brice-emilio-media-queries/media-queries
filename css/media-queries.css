@@ -95,3 +95,52 @@ footer {
     margin-top: 2em;
     font-size: smaller;
 }
+
+@media screen and (min-width:992px) {
+    .alert-info{
+        visibility: hidden;
+    }
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    nav {
+        flex-basis: 50%;
+        display: flex;
+    }
+    .nav-links {
+        flex-direction: row;
+        justify-content: flex-end;
+        display: flex;
+        margin: 0;
+    }
+    h1 {
+        flex-grow: 1;
+    }
+    .nav-links li {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        width: 5em;
+    }
+    .header-img {
+        margin: 2em 0;
+    }
+    .main {
+        flex-basis: 60%;
+    }
+    .sub-section {
+        flex-basis: 40%;
+    }
+
+
+
+
+
+
+
+
+
+}
